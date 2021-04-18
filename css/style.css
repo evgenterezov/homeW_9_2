@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "Futura PT";
+  src: url("../font/FuturaPT-Demi.eot");
+  src: local("../font/Futura PT Demi"), local("FuturaPT-Demi"),
+    url("../font/FuturaPT-Demi.eot?#iefix") format("embedded-opentype"),
+    url("../font/FuturaPT-Demi.woff") format("woff"),
+    url("../font/FuturaPT-Demi.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../font/proxima_nova_regular-webfont.eot");
+  src: url("../font/proxima_nova_regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/proxima_nova_regular-webfont.woff2") format("woff2"),
+    url("../font/proxima_nova_regular-webfont.woff") format("woff"),
+    url("../font/proxima_nova_regular-webfont.ttf") format("truetype"),
+    url("../font/proxima_nova_regular-webfont.svg#Proxima nova") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Georgiaitalic";
+  src: url("../font/georgia_italic-webfont.eot");
+  src: url("../font/georgia_italic-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/georgia_italic-webfont.woff2") format("woff2"),
+    url("../font/georgia_italic-webfont.woff") format("woff"),
+    url("../font/georgia_italic-webfont.ttf") format("truetype"),
+    url("../font/georgia_italic-webfont.svg#Georgiaitalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Georgia";
+  src: url("../font/georgia_regular_font-webfont.eot");
+  src: url("../font/georgia_regular_font-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/georgia_regular_font-webfont.woff2") format("woff2"),
+    url("../font/georgia_regular_font-webfont.woff") format("woff"),
+    url("../font/georgia_regular_font-webfont.ttf") format("truetype"),
+    url("../font/georgia_regular_font-webfont.svg#Georgia") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.inner {
+  background: #464f54;
+  padding-top: 47px;
+  padding-left: 70px;
+}
+.header-title {
+  height: 187px;
+  background: #181818;
+  box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+  position: relative;
+  padding-top: 47px;
+  padding-left: 68px;
+  margin-left: 27%;
+}
+input {
+  font-family: "Playfair Display";
+  background: #181818;
+  border: none;
+  font-size: 35px;
+  color: #fefefe;
+  display: flex;
+  width: 100%;
+  border-bottom: 2px solid #767676;
+}
+::placeholder {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-size: 45px;
+  line-height: 64px;
+}
+label {
+  color: #767676;
+  font-size: 15px;
+  line-height: 18px;
+}
+.header-menu {
+  background: #fbc02d;
+  box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+  margin-left: 35%;
+  position: relative;
+  z-index: 1;
+}
+.header-menu__items {
+  display: flex;
+  list-style: none;
+  padding-left: 42px;
+  align-items: center;
+  height: 75px;
+}
+.header-menu__items img {
+  height: 30px;
+  opacity: 0.5;
+  margin-right: 33px;
+}
+.header-menu__items img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.main-section {
+  background: #fff;
+  margin-right: 70px;
+}
+.content {
+  margin-left: 66px;
+  border-left: 2px solid #e8eced;
+  padding-left: 56px;
+  padding-right: 112px;
+  position: relative;
+  margin-top: -140px;
+}
+.avtor {
+  padding-top: 260px;
+  font-family: "Proxima Nova";
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+  color: #b4b4b4;
+  margin-bottom: 18px;
+}
+h2 {
+  font-family: "Futura PT";
+  font-weight: 600;
+  font-size: 78px;
+  line-height: 100px;
+  color: #2a2a2a;
+  text-transform: uppercase;
+}
+.subtitle {
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 30px;
+  line-height: 34px;
+  color: #8f8f8f;
+  margin-bottom: 50px;
+}
+span {
+  font-family: Georgia;
+  font-style: italic;
+}
+p {
+  font-family: "Georgia";
+  font-size: 27px;
+  line-height: 40px;
+  color: #000000;
+  margin-bottom: 30px;
+}
